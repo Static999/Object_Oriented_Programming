@@ -9,21 +9,22 @@ public class Main {
         post.phone = "+7(999)-999-99-99";
         post.surname = "Иванов";
         post.subscription = true;
+
         post.birthday = new FormDate();
         post.birthday.day = 13;
         post.birthday.month = 6;
         post.birthday.year = 1990;
 
-        System.out.println("Имя: " + Post.name);
-        System.out.println("Пасспорт: " + Post.passport);
-        System.out.println("Отчество: " + Post.patronymic);
-        System.out.println("Номер телефона: " + Post.phone);
-        System.out.println("Фамилия: " + Post.surname);
-        System.out.println("Статус подписки: " + Post.subscription);
+        System.out.println("Имя: " + post.name);
+        System.out.println("Пасспорт: " + post.passport);
+        System.out.println("Отчество: " + post.patronymic);
+        System.out.println("Номер телефона: " + post.phone);
+        System.out.println("Фамилия: " + post.surname);
+        System.out.println("Статус подписки: " + post.subscription);
         System.out.println("Дата рождения:");
-        System.out.println("День    - " + Post.birthday.day);
-        System.out.println("Месяц   - " + Post.birthday.month);
-        System.out.println("Год     - " + Post.birthday.year);
+        System.out.println("День    - " + post.birthday.day);
+        System.out.println("Месяц   - " + post.birthday.month);
+        System.out.println("Год     - " + post.birthday.year);
 
 
 
